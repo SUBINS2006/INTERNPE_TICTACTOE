@@ -1,0 +1,28 @@
+# Tic Tac Toe Game (XO) in Java 🎮
+
+This is a simple **Tic Tac Toe (XO)** game built using **Java Swing**.  
+The game can be played in **two modes**:
+- **Player vs Player** (two people on the same computer)
+- **Player vs Computer (AI)** — Computer plays random moves
+
+---
+
+## 🚀 How to Run
+
+### 1. Requirements
+- Java JDK 8+  
+- Eclipse IDE (or IntelliJ / VS Code)  
+
+### 2. Steps in Eclipse
+1. Open Eclipse → `File → New → Java Project`
+2. Give project name: `TicTacToe`
+3. Right-click on `src` → `New → Class` → Name it `TicTacToeAI`
+4. Paste the Java code from this repo into `TicTacToeAI.java`
+5. Make sure you add these imports at the top:
+   ```java
+   import javax.swing.*;
+   import java.awt.*;
+   import java.awt.event.*;
+   import java.util.List;
+   import java.util.ArrayList;
+   import java.util.Random;
